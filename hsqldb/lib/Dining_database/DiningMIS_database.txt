@@ -1,0 +1,68 @@
+﻿菜单表：
+create table caishiinfo(ID IDENTITY,name char,price double);
+
+
+///create table jinhuoinfo(ID IDENTITY,name char,price double,num char,time char);
+
+///create table login(ID IDENTITY,name char,pass char,Competence char);
+
+帐单表
+create table paybill(ID IDENTITY,zuohao char,cainame char,cainum char,caiprice double);
+
+////create table shangpininfo(ID IDENTITY,name char,price double);
+
+财务收入表
+create table shouru(ID IDENTITY,Dayshouru char,timeshouru date);
+
+餐桌状态表
+create table tableuse(ID IDENTITY,zuohao char,state char,beizhu char);
+
+用户表
+create table User(ID IDENTITY,name char,pass char,sex char,competence char);
+
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'001','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'002','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'003','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'004','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'005','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'006','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'007','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'008','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'009','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'010','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'011','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'012','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'013','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'014','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'015','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'016','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'017','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'018','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'019','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'020','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'021','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'022','无人','');
+insert into tableuse(ID,zuohao,state,beizhu)
+values (NULL,'023','无人','');
